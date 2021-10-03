@@ -1,0 +1,44 @@
+[
+   {
+      "id": 1,
+      "title": "Learn to read quran",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet explicabo iste temporibus magnam est cum.",
+      "instructor": "Mizanur Rahman",
+      "price": 25
+   },
+   {
+      "id": 2,
+      "title": "Learn to read quran",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet explicabo iste temporibus magnam est cum.",
+      "instructor": "Mizanur Rahman",
+      "price": 25
+   },
+   {
+      "id": 3,
+      "title": "Learn to read quran",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet explicabo iste temporibus magnam est cum.",
+      "instructor": "Mizanur Rahman",
+      "price": 25
+   },
+   {
+      "id": 4,
+      "title": "Learn to read quran",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet explicabo iste temporibus magnam est cum.",
+      "instructor": "Mizanur Rahman",
+      "price": 25
+   },
+   {
+      "id": 5,
+      "title": "Learn to read quran",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet explicabo iste temporibus magnam est cum.",
+      "instructor": "Mizanur Rahman",
+      "price": 25
+   },
+   {
+      "id": 6,
+      "title": "Learn to read quran",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet explicabo iste temporibus magnam est cum.",
+      "instructor": "Mizanur Rahman",
+      "price": 25
+   }
+]
