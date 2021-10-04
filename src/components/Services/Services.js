@@ -19,6 +19,7 @@ const Services = () => {
              </div>
             <Row className='gap-5 justify-content-center px-2' >
               {
+                //   showing only the first 4 services
                   services.slice(0,4).map(service => <Service key={service.id} service={service} />)
               }
             </Row>
