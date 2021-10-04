@@ -1,19 +1,23 @@
 import React from 'react';
-import { Card } from 'react-bootstrap';
+import { Card, Col, Button } from 'react-bootstrap';
 
 const Service = (props) => {
-    const { id, title, price, description } = props.service;
+   const { title, price, description, imageUrl, instructor } = props.service;
    return (
-      <div className='col-xl-3 col-lg-4 col-md-6'>
-         <Card style={{ minWidth: '18rem' }}>
-            <Card.Img variant='top' src='holder.js/100px180' />
+      <Col className='px-0' xl={3} lg={4}>
+         <Card style={{ minWidth: '22rem' }}>
+            <Card.Img variant='top' src={imageUrl} />
             <Card.Body>
-               <Card.Title>{title}</Card.Title>
-               <Card.Text>{description}</Card.Text>
-               <p variant='primary'>${price}</p>
+               <Card.Title className='fs-4'>{title}</Card.Title>
+               <Card.Text className='lead'>
+                  {description.slice(0, 100)}..
+               </Card.Text>
+               <p>Instructor: {instructor}</p>
+               <h1 className='text-primary'>${price}</h1>
             </Card.Body>
+            <Button className='rounded-0 py-3'>Enroll</Button>
          </Card>
-      </div>
+      </Col>
    );
 };
 

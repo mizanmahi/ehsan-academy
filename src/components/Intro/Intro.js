@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './intro.css';
 
 const Intro = () => {
@@ -14,12 +15,16 @@ const Intro = () => {
                through knowledge, Quranic educations and General studies. To inculcate Islamic spirit, develop and deepen practical religiosity in the life of the individual and society, based on dedication worship to Allah Alone and specifying followership to the Messenger of Allah, peace be upon him.
             </p>
             <div>
+               <Link to='/instructors'>
                <Button variant='outline-primary rounded-0 border-light text-light fs-5 me-5'>
-                  Learn More
+                  Meet Instructors
                </Button>
+               </Link>
+               <Link to='/services'>
                <Button variant='outline-primary rounded-0 border-light text-light fs-5'>
                   See Services
                </Button>
+               </Link>
             </div>
          </div>
       </div>

@@ -1,0 +1,5 @@
+[
+   { "id": 1, "name": "Mufti Menk", "designation": "Grand Mufti", "imageUrl": "https://pbs.twimg.com/profile_images/1273850261451059202/Uv-YQxUO_400x400.jpg" },
+   { "id": 2, "name": "Kanij Tasrin", "designation": "Islamic Scholar", "imageUrl": "https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/c9bd0213-31c1-4262-b416-a4d5343429a8/sara-soueidan-profile-pic-opt.jpg"},
+   { "id": 3, "name": "Ostad Noumal Ali", "designation": "Islamic Shaikh", "imageUrl": "https://i1.sndcdn.com/artworks-000101500599-r7zy7n-t500x500.jpg" }
+]

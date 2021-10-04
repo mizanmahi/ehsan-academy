@@ -1,43 +1,89 @@
 [
    {
-      "id": 1,
+      "id": 10,
       "title": "Learn to read quran",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet explicabo iste temporibus magnam est cum.",
+      "description": "Our Mission And Vision is to Spread The Teachings Of Holy Qur'an To Every Muslim And Non-Muslim and Guide Them To The Right Path.",
+      "imageUrl": "https://cdn.pixabay.com/photo/2016/07/19/16/17/holy-quran-1528446_960_720.jpg",
+      "instructor": "Mufti Menk",
+      "price": 10
+   },
+   {
+      "id": 20,
+      "title": "Learn to translate Quran",
+      "description": "Here you will learn quran with the makhraj and some translation of arabic words",
+      "imageUrl": "https://cdn.pixabay.com/photo/2020/03/20/16/00/quran-4951037_960_720.jpg",
+      "instructor": "Mizanur Rahman",
+      "price": 18
+   },
+   {
+      "id": 30,
+      "title": "Prayer Accurately",
+      "description": "Here we will teach you how to pray in the right way according to sunna and shariyah's law",
+      "imageUrl": "https://cdn.pixabay.com/photo/2015/12/05/06/20/kid-1077793_960_720.jpg",
+
       "instructor": "Mizanur Rahman",
       "price": 25
    },
    {
-      "id": 2,
-      "title": "Learn to read quran",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet explicabo iste temporibus magnam est cum.",
-      "instructor": "Mizanur Rahman",
-      "price": 25
+      "id": 40,
+      "title": "Keep yourself safe",
+      "description": "Here we will train you to save yourself from the fitna of this era in the light of quran",
+      "imageUrl": "https://cdn.pixabay.com/photo/2016/01/31/18/56/female-1171956_960_720.jpg",
+
+      "instructor": "Kanij Tasrin",
+      "price": 15
    },
    {
-      "id": 3,
-      "title": "Learn to read quran",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet explicabo iste temporibus magnam est cum.",
+      "id": 50,
+      "title": "Understand Quran",
+      "description": "Here we will teach you the basic things of research on quran, the plot of different sura etc",
+      "imageUrl": "https://cdn.pixabay.com/photo/2016/03/27/18/31/book-1283468_960_720.jpg",
+
       "instructor": "Mizanur Rahman",
-      "price": 25
+      "price": 28
    },
    {
-      "id": 4,
-      "title": "Learn to read quran",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet explicabo iste temporibus magnam est cum.",
+      "id": 60,
+      "title": "Adab of Masjid",
+      "description": "Here we will train you about the adab of enetring masjid and some related hadith",
+      "imageUrl": "https://cdn.pixabay.com/photo/2019/11/05/20/36/abu-dhabi-4604499_960_720.jpg",
+
       "instructor": "Mizanur Rahman",
-      "price": 25
+      "price": 8
    },
    {
-      "id": 5,
-      "title": "Learn to read quran",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet explicabo iste temporibus magnam est cum.",
-      "instructor": "Mizanur Rahman",
-      "price": 25
+      "id": 70,
+      "title": "Quranic History",
+      "description": "Here we will be describing the plot of different verse and the history of amazing Quran",
+      "imageUrl": "https://cdn.pixabay.com/photo/2021/07/16/01/58/indonesia-6469740_960_720.jpg",
+
+      "instructor": "Kanij Tasrin",
+      "price": 20
    },
    {
-      "id": 6,
-      "title": "Learn to read quran",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet explicabo iste temporibus magnam est cum.",
+      "id": 80,
+      "title": "Islamic Caliphate",
+      "description": "Here you will learn the story of the muslim heroes who once used to rule the world",
+      "imageUrl": "https://cdn.pixabay.com/photo/2019/05/11/17/35/mosque-4196145_960_720.jpg",
+
+      "instructor": "Mufti Menk",
+      "price": 16
+   },
+   {
+      "id": 90,
+      "title": "Light of deen",
+      "description": "Here we will teach you how to spend the time in the light of deen and sunna",
+      "imageUrl": "https://cdn.pixabay.com/photo/2020/02/02/07/50/mosque-4812260_960_720.jpg",
+
+      "instructor": "Mufti Menk",
+      "price": 30
+   },
+   {
+      "id": 100,
+      "title": "Islamic Shariah",
+      "description": "Here you will learn the basic law of Islam and the rules and also the best practices",
+      "imageUrl": "https://cdn.pixabay.com/photo/2017/04/26/15/04/religious-2262785_960_720.jpg",
+
       "instructor": "Mizanur Rahman",
       "price": 25
    }

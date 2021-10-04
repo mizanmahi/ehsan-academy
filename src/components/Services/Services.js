@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Container, Row } from 'react-bootstrap';
 import Service from '../Service/Service';
 
 const Services = () => {
@@ -11,17 +12,17 @@ const Services = () => {
 
    return (
       <div>
-         <div className='container-lg'>
+         <Container>
              <div className='text-center my-5'>
                  <h2 className='fs-1 fw-bolder text-primary'>Our Services</h2>
                  <p className='lead'>Choose the one you like to get started</p>
              </div>
-            <div className='row gap-2 justify-content-center'>
+            <Row className='gap-5 justify-content-center px-2' >
               {
-                  services.map(service => <Service service={service} />)
+                  services.slice(0,4).map(service => <Service key={service.id} service={service} />)
               }
-            </div>
-         </div>
+            </Row>
+         </Container>
       </div>
    );
 };
