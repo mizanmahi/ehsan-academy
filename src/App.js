@@ -6,7 +6,8 @@ import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import HomePage from './components/HomePage/HomePage';
 import Instructors from './components/Instructors/Instructors';
-import NotFound from './components/NotFound/NotFound'
+import InstructorsCourse from './components/InstructorsCourse/InstructorsCourse';
+import NotFound from './components/NotFound/NotFound';
 function App() {
    return (
       <div className='App'>
@@ -27,6 +28,9 @@ function App() {
                </Route>
                <Route exact path='/instructors'>
                   <Instructors />
+               </Route>
+               <Route exact path='/instructor/:instructorId'>
+                  <InstructorsCourse />
                </Route>
                <Route path='*'>
                   <NotFound />
