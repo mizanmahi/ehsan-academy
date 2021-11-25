@@ -3,8 +3,13 @@ import { Button } from 'react-bootstrap';
 import './notfound.css';
 import notFoundLogo from '../../media/404.svg';
 import { Link, useHistory } from 'react-router-dom';
+import useDocumentTitle from '../../hooks/useDocumentTitle';
 
 const NotFound = () => {
+
+   //@ handle title change
+   useDocumentTitle('Page Not Found')
+
    const history = useHistory();
    const handleClick = () => {
       history.goBack();

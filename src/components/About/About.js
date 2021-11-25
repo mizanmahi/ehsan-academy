@@ -1,8 +1,12 @@
 import React from 'react';
 import { Col, Container, Row, Button } from 'react-bootstrap';
+import useDocumentTitle from '../../hooks/useDocumentTitle';
 import aboutImage from '../../media/aboutImage.png';
 
 const About = () => {
+
+   useDocumentTitle('About us')
+
    return (
       <section className='my-5 py-5'>
          <Container>

@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row } from 'react-bootstrap';
+import useDocumentTitle from '../../hooks/useDocumentTitle';
 import Instructor from '../Instructor/Instructor';
 
 const Instructors = () => {
+
+   useDocumentTitle('Instructors', true)
+
    const [instructors, setInstructors] = useState([]);
    useEffect(() => {
       fetch('./instructor.json')
